@@ -3,11 +3,11 @@
 }
 
 body{
-    background-color: #ffffff;
+    background-color: #ebedec;
 }
 
 #header-nav {
-    background-color: rgb(32, 37, 138);
+    background-color: rgb(32,37,138);
     border-radius: 0;
     border: 0;    
     border: solid black 3px;
@@ -34,44 +34,28 @@ body{
 }
 
 .text-center {
-    font-family: 'Alfa Slab One';
-    font-size: 35px;
-    color: white; 
+    font-family: 'Sofia';
+    font-size: 38px;
+    font-weight: bold;
     position: relative;
     margin-top: 55px;
 }
 
 #text {       
     margin: 10px;
-    background-color: rgb(54, 115, 153);;
+    background-color: rgb(54,115,153);
     font-family: 'Oxygen'; 
     font-size: 1.3em;
     font-weight: normal; 
     color: #EDF5E1; 
     position: relative;
+    border: 2px solid rgb(145, 156, 148);
+    border-bottom-left-radius: 50px 20px;
+    border-bottom-right-radius: 50px 20px;
+    border-top-left-radius: 50px 20px;
+    border-top-right-radius: 50px 20px;
+      
 }
-.centered {
-    position: absolute;
-    font-family: 'Alfa Slab One';
-    top: 50%;
-    font-size: 80px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .container {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
-  .top-left {
-    position: absolute;
-    font-family: 'Alfa Slab One';
-    top: 8px;
-    left: 16px;
-    font-size: 60px;
-  }
-  
 
 
 
@@ -245,18 +229,8 @@ height:auto
     margin-top: 10px;
 }
 
-button{
-    color: #EDF5E1;
-    background-color: #05386B;
-}
-
-button:hover{
-    color: #05386B;
-    background-color: #EDF5E1;
-}
-
 footer{
-    background-color:rgb(32, 37, 138);
+    background-color: gray;
     color: white;
     height: 140px;
     position: absolute;
